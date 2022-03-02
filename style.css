@@ -1,0 +1,19 @@
+* {
+    margin: none;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#board td {
+    text-align: center;
+    width: 30px;
+    height: 30px;
+}
+.hide {
+    background-color: black;
+}
+.ok {
+    background-color: orange;
+}
